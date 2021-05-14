@@ -1,0 +1,31 @@
+let age = 42
+let age = 24 + 18;
+let war = 1945-1939;
+let tesla = 76*579;
+let secondsOfDay = 60*60*24;
+let hungarian = (9641000/7800000000)*100
+undefined
+let china = 9957000000;
+undefined
+let cesko = 78000;
+undefined
+let bigger = (china) - (cesko);
+undefined
+participants = 654%7;
+3
+let names = ['Ben', 'Jon', 'Stuart'];
+let thirdname = 'Stuart'.length
+thirdname > 5
+true
+names.push('Bill')
+names
+(4) ["Ben", "Jon", "Stuart", "Bill"]
+names.splice(names.indexOf("Ben"), 1, "Dagmar")
+["Ben"]
+(4) ["Dagmar", "Jon", "Stuart", "Bill"]
+names.length
+4
+var palette = { color: ['blue', 'green', 'black'], type: 'none', age: 45}
+palette.hasManyColors = true
+true
+{color: Array(3), type: "none", age: 45, hasManyColors: true}
