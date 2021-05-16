@@ -29,3 +29,88 @@ var palette = { color: ['blue', 'green', 'black'], type: 'none', age: 45}
 palette.hasManyColors = true
 true
 {color: Array(3), type: "none", age: 45, hasManyColors: true}
+
+let myVariable = false;
+if (myVariable = true){console.log("The condition has been evaulated to true")};
+
+VM865:2 The condition has been evaulated to true
+
+Gen = 10;
+11
+for (i=0; i < Gen; i++)
+    console.log(i)
+VM1706:2 0
+VM1706:2 1
+VM1706:2 2
+VM1706:2 3
+VM1706:2 4
+VM1706:2 5
+VM1706:2 6
+VM1706:2 7
+VM1706:2 8
+VM1706:2 9
+for (i=1; i< 11; i++)
+    console.log(i);
+VM1821:2 1
+VM1821:2 2
+VM1821:2 3
+VM1821:2 4
+VM1821:2 5
+VM1821:2 6
+VM1821:2 7
+VM1821:2 8
+VM1821:2 9
+VM1821:2 10
+for ( i=0; i<11; i++)
+    console.log(i*2);
+VM2156:2 0
+VM2156:2 2
+VM2156:2 4
+VM2156:2 6
+VM2156:2 8
+VM2156:2 10
+VM2156:2 12
+VM2156:2 14
+VM2156:2 16
+VM2156:2 18
+VM2156:2 20
+
+let a = 7;
+undefined
+if (a<5){
+    console.log(a/2);
+} else{
+    console.log(a*2);
+}
+VM2381:4 14
+
+if (a<5){
+    console.log(a/2);
+} else{
+    console.log(1);
+}
+VM2405:4 1
+
+function printNumbersTill(i){for (i=1; i < 21; i++)
+    console.log(i);}
+undefined
+printNumbersTill();
+
+
+function getGreetingTo(){console.log('Hello' +' '+ name)};
+console.log(getGreetingTo());
+VM980:1 Hello Mark
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"]; 
+printValues(fruits);
+VM172:3 Banana
+VM172:3 Orange
+VM172:3 Apple
+VM172:3 Mango
+
+fruits.forEach((fruit) => {console.log(fruit);
+});
+VM900:1 Banana
+VM900:1 Orange
+VM900:1 Apple
+VM900:1 Mango
